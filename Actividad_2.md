@@ -128,10 +128,26 @@ Convertir los números binarios a números decimales.
 
 ## Ejercicio 5. 🧠
 
+🟢 Se alamacena la información cada 10 segundos durante 24 horas. Calcule cuánto espacio total se requiere en memoria para almacenar estos datos. Describe el procedimiento y muestra el resultado final. 
+
+1. Si se sabe que cada 10 segundos tendremos almacenada la información, eso quiere decir que cada minuto se tendran 6 datos, si multiplicamos por los minutos que posee una hora eso seria igual a 360 datos en una hora.
+
+     6 x 60 = 360 datos cada hora. 
+
+2. Si esos 360 datos por hora se multiplican entre las 24 horas de un dia. el resultado seria 8,640, si este resultado lo multiplicamos entre los 19 bits del lenguaje de C el resultado seria 164,160 bits.
+
+    360 x 24 = 8,640 x 19 = 164,160 
+
+3. Para transformar bit a KiloByte el resultado anterios se divide entre 1024 que infiere en la cantidad del bit el resultado seria la cantidad de KiloByte generados en 24 horas. 
+
+    $\frac{164,160}{1024}$ = 160.3 KB generados en 24 horas.
+
+ 🟠 *Resultado final* : En un lapso de 24 horas se generan 160.3 KB
 
 
+ ## 6. Conclusión 📖
 
-
+ 
 
 
 
