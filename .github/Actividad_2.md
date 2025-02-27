@@ -147,10 +147,13 @@ Convertir los números binarios a números decimales.
 
  ## 6. Conclusión 📖
 
- 
+ - En esta actividad tuvimos la oportunidad de aprenden sobre como las computadoras representan distintos caracteres (Letras, Números e imagenes.) Ademas pudimos identificar el uso de los números bianrios para los computadores y como realixzar transformaciones (Números binarios a números decimales y vice versa)
 
+ - Visualizamos los conceptos de Bite, sus unidades, abreaviaturas y su quivalencian en base 2 y 10.
 
+- Pudimos tener las primeras visualizaciones sobre distintos lenguajes de programación (Python, C, Java y C++) conocimos que datos contienen y sus caracteristicas generales y principales
 
+- Finalmente hicimos un ejercicio practico sobre el cálculo de espacio en la memoria.
 
 
 
