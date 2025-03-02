@@ -6,6 +6,13 @@ Nombre del estudiante:  Susana Tamayo
 Id.: 567398
 
 ### Tabla de contenido 📚
+| 🧠 Actividad | Titulo|🔗 link |
+|--------------|--------------|---
+| Actividad 1  | Actividad 1: El computador digital moderno 🖥️|[Actividad 1](funprog-evalu2-2510-susanatamayo/Actividad_1.md) |
+| Actividad 2| Actividad 2: Representación de datos digitales #️⃣ |[Actividad 2](funprog-evalu2-2510-susanatamayo/Actividad_2.md)|
+| Actividad 3|Actividad 3: Algoritmos📄|[Actividad 3](funprog-evalu2-2510-susanatamayo/Activida_3.md)|
+| Actividad 4|Actividad 4: de algoritmo a código fuente🔄️|[Actividad 4](funprog-evalu2-2510-susanatamayo/Activida_4.md)|
+
 
 # Actividad de invetigación.🔍 (Actividad 1)
 
