@@ -34,15 +34,15 @@ Inicio
     Escribir "Ingrese la cantidad de calificaciones:"
     Leer n
     
-    suma ← 0
+    suma = 0
     
-    Para i ← 1 hasta n Hacer
+    Para i = 1 hasta n Hacer
         Escribir "Ingrese la calificación ", i, ":"
         Leer calificacion
-        suma ← suma + calificacion
+        suma = suma + calificacion
     FinPara
     
-    promedio ← suma / n
+    promedio = suma / n
     
     Escribir "El promedio es: ", promedio
 Fin
