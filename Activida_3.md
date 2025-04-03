@@ -128,7 +128,7 @@ Inicio
     Escribir "Ingrese la calificación del examen 3: "
     Leer calificacion3
 
-    promedio ← (calificacion1 + calificacion2 + calificacion3) / 3
+    promedio = (calificacion1 + calificacion2 + calificacion3) / 3
 
     Si promedio >= 6 Entonces
         Escribir "Felicidades, aprobaste el curso!"

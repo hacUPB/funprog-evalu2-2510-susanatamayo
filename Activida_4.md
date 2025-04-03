@@ -202,13 +202,13 @@ INICIO
 
     // Obtener la fecha actual
     OBTENER fecha_actual
-    dia_actual ← DIA(fecha_actual)
-    mes_actual ← MES(fecha_actual)
-    año_actual ← AÑO(fecha_actual)
+    dia_actual = DIA(fecha_actual)
+    mes_actual = MES(fecha_actual)
+    año_actual = AÑO(fecha_actual)
 
 
     // Calcular la edad
-    edad ← año_actual - año_nac
+    edad = año_actual - año_nac
 
 
     // Verificar si ya cumplió años este año
@@ -286,13 +286,13 @@ INICIO
     SI horas_trabajadas > 50 ENTONCES
         ESCRIBIR "Error: No se permite trabajar más de 50 horas."
     SINO
-        sueldo ← 0
+        sueldo = 0
         SI horas_trabajadas <= 40 ENTONCES
-            sueldo ← horas_trabajadas * pago_por_hora
+            sueldo = horas_trabajadas * pago_por_hora
         SINO SI horas_trabajadas <= 45 ENTONCES
-            sueldo ← (40 * pago_por_hora) + ((horas_trabajadas - 40) * (2 * pago_por_hora))
+            sueldo = (40 * pago_por_hora) + ((horas_trabajadas - 40) * (2 * pago_por_hora))
         SINO SI horas_trabajadas <= 50 ENTONCES
-            sueldo ← (40 * pago_por_hora) + (5 * 2 * pago_por_hora) + ((horas_trabajadas - 45) * (3 * pago_por_hora))
+            sueldo = (40 * pago_por_hora) + (5 * 2 * pago_por_hora) + ((horas_trabajadas - 45) * (3 * pago_por_hora))
         FIN SI
         ESCRIBIR "El sueldo semanal es: ", sueldo
     FIN SI
@@ -333,6 +333,3 @@ int main() {
 }
 ```
 
-❓Después de este tutorial, ¿qué puntos crees que deberías reforzar para sentirte más seguro al traducir pseudocódigo a C?
-
-💭 Considero que la forma de senrime mas segura a la hora de realizar traducciones seria mediante la practica constante. 
